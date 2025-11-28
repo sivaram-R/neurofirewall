@@ -189,15 +189,16 @@ streamlit run main.py
 
 #  Output Preview
 <img width="1917" height="955" alt="image" src="https://github.com/user-attachments/assets/c2f0009b-d347-4289-9c7c-2257d63a45a0" />
-## Safe
+
+## 1.Safe
 <img width="1916" height="966" alt="image" src="https://github.com/user-attachments/assets/4b186907-172e-46c7-9a50-dea655e4b99c" />
 <img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/82fe1ef8-70d8-40d2-8e9e-38758a5d0771" />
 
-## Alert
+## 2.Alert
 <img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/7a0d751d-905a-433b-a3ad-e4617ac9411a" />
 <img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/cb9a978e-682c-454b-aef7-3f6c72214c33" />
 
-## Harmful
+## 3.Harmful
 <img width="1917" height="961" alt="image" src="https://github.com/user-attachments/assets/95891793-67cd-4eb6-b6eb-327c0299d4c5" />
 <img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/83ed943a-888e-428b-a002-8bd17bbaee59" />
 
