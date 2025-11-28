@@ -6,8 +6,6 @@
 NeuroFirewall is an **AI-driven real-time EEG (brainwave) analysis system** built using **TensorFlow, Streamlit, and dynamic neural visualizations**.
 It simulates brain activity, classifies emotional/threat levels using a neural network model, and provides **live visualization, adaptive background transitions, sound alerts, and threat logs**.
 
----
-
 ##  **Features**
 
 ###  **1. AI EEG Emotion/Threat Classification**
@@ -38,7 +36,7 @@ It simulates brain activity, classifies emotional/threat levels using a neural n
   * 🟥 Harmful → Red
 * Auto-clears previous background styles to avoid stacking
 
-### 🔊 **5. Audio Feedback Engine**
+###  **5. Audio Feedback Engine**
 
 * Uses **pygame** to generate sound tones for each threat state
 
@@ -58,8 +56,6 @@ It simulates brain activity, classifies emotional/threat levels using a neural n
 * Toast notifications
 * Smooth background transitions
 
----
-
 #  Project Structure
 
 ```
@@ -78,9 +74,6 @@ NeuroFirewall/
 │
 └── README.md
 ```
-
----
-
 #  Dataset Used
 
 The project uses an **emotional EEG dataset**:
@@ -91,8 +84,6 @@ The project uses an **emotional EEG dataset**:
 Dataset is loaded in both scripts:
 ✔ `main.py` (for live simulation)
 ✔ `train_model.py` (for training)
-
----
 
 #  How It Works
 
@@ -119,7 +110,6 @@ python train_model.py
 
 This generates everything required for live prediction.
 
----
 
 ## ** 2. Live EEG Dashboard (main.py)**
 
@@ -170,46 +160,6 @@ UI panel for ongoing events.
 streamlit run main.py
 ```
 
----
-
-#  Requirements
-
-```
-streamlit
-numpy
-pandas
-tensorflow
-matplotlib
-scikit-learn
-pygame
-joblib
-```
-
-Install them:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-#  Creating `requirements.txt`
-
-```
-streamlit
-numpy
-pandas
-tensorflow
-matplotlib
-scikit-learn
-pygame
-joblib
-```
-
-Add more if required.
-
----
-
 #  How to Run the Project
 
 ### **1. Clone the repo**
@@ -237,8 +187,6 @@ python train_model.py
 streamlit run main.py
 ```
 
----
-
 #  Output Preview
 
 ### ✔ Live EEG waveform
@@ -253,9 +201,6 @@ streamlit run main.py
 
 ### ✔ Smooth background transitions
 
-
----
-
 #  Tech Stack
 
 | Component         | Technology         |
@@ -268,8 +213,6 @@ streamlit run main.py
 | Preprocessing     | Scikit-learn       |
 | Model Storage     | Joblib + H5        |
 
----
-
 #  Future Enhancements
 
 * Real EEG hardware integration
@@ -278,5 +221,3 @@ streamlit run main.py
 * Reinforcement learning for adaptive calibration
 * API endpoint for external systems
 
-
-Just tell me!
